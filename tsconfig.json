@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "./dist",
+    "target": "es6",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": ["node"],
+    "sourceMap": true
+  },
+  "include": ["src/index.ts"],
+  "exclude": ["node_modules"]
+}
